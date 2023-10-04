@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h2>Литературные течения</h2>
+    <h2 class="header_text">Литературные течения</h2>
     <div class="menu_buttons_block">
       <router-link to="" class="menu_button">Реализм</router-link>
       <router-link to="" class="menu_button">Символизм</router-link>
@@ -44,19 +44,22 @@ export default class YHeader extends Vue {
   box-sizing: border-box;
 }
 
+.header_text {
+  color: @header-text-color;
+}
+
 .menu_buttons_block {
   display: flex;
   gap: 2rem;
 }
 
 .menu_button {
-  color: @header-text-color;
-
   text-decoration: none;
   font-weight: bold;
 
   scale: 100%;
   border-bottom: 2px solid transparent;
+  color: @header-buttons-text-color;
   transition-duration: .5s;
 }
 
