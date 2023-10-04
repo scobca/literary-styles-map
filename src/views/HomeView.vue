@@ -1,15 +1,17 @@
 <template>
   <div class="home_container">
-    <y-france-map class="france_map_container"/>
+    <y-france-map class="fm_container"/>
+    <y-italy-map class="im_container"/>
   </div>
 </template>
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component';
 import YFranceMap from "@/components/YFranceMap.vue";
+import YItalyMap from "@/components/YItalyMap.vue";
 
 @Options({
-  components: {YFranceMap},
+  components: {YItalyMap, YFranceMap},
 })
 export default class HomeView extends Vue {
 
@@ -26,7 +28,7 @@ export default class HomeView extends Vue {
   background-size: 52rem 35rem;
 }
 
-.france_map_container {
+.fm_container {
   margin: 3rem 0;
   padding: 0 25vw 0 0;
 }
