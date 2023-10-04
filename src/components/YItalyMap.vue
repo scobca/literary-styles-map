@@ -28,7 +28,7 @@ export default class YItalyMap extends Vue{
   transition-duration: .3s;
 }
 
-.im-f:hover, {
+.im-f:hover {
   scale: 120%;
   transition-duration: .3s;
   z-index: 100;
