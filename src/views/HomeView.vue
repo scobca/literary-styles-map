@@ -1,7 +1,10 @@
 <template>
   <div class="home_container">
-    <y-france-map class="fm_container"/>
-    <y-italy-map class="im_container"/>
+    <div class="country_container">
+      <y-france-map class="fm_container"/>
+      <y-russia-map class="rm_container"/>
+      <y-italy-map class="im_container"/>
+    </div>
   </div>
 </template>
 
@@ -9,9 +12,10 @@
 import { Options, Vue } from 'vue-class-component';
 import YFranceMap from "@/components/YFranceMap.vue";
 import YItalyMap from "@/components/YItalyMap.vue";
+import YRussiaMap from "@/components/YRussiaMap.vue";
 
 @Options({
-  components: {YItalyMap, YFranceMap},
+  components: {YRussiaMap, YItalyMap, YFranceMap},
 })
 export default class HomeView extends Vue {
 
@@ -26,10 +30,22 @@ export default class HomeView extends Vue {
   margin: 2rem 0 0 0;
   background: url("@/assets/img/map_background_2.png") fixed center no-repeat;
   background-size: 52rem 35rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.fm_container {
-  margin: 3rem 0;
-  padding: 0 25vw 0 0;
+.country_container {
+  max-width: 50vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.fm_container, .rm_container {
+  margin: 2rem 0;
 }
 </style>
