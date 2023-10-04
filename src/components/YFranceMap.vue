@@ -2,11 +2,11 @@
   <div class="main_container">
     <h2 class="country_header">Франция</h2>
     <div class="france_map">
-      <div class="block fm-f_block">
+      <div class="block fm-f-block">
         <span class="style_name">Реализм</span>
         <img src="@/assets/img/maps/france_map_fst.png" alt="" class="fm-f img">
       </div>
-      <div class="block block_reverse fm-s_block">
+      <div class="block block_reverse fm-s-block">
         <span class="style_name">Символизм</span>
         <img src="@/assets/img/maps/france_map_snd.png" alt="" class="fm-s img">
       </div>
