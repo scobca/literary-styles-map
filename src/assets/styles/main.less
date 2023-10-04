@@ -1,11 +1,20 @@
 @import "color";
 
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: @text-color;
+
+  background: url("@/assets/images/water-viewed.jpg") fixed;
+  min-height: 100vh;
 }
 
 nav {
