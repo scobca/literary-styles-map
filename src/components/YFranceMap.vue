@@ -67,8 +67,8 @@ export default class YFranceMap extends Vue {
   margin-right: -2rem;
 }
 
-.fm-f_block:hover .style_name, .fm-f_block:hover .fm-f,
-.fm-s_block:hover .fm-s, .fm-s_block:hover .style_name {
+.fm-f-block:hover .style_name, .fm-f-block:hover .fm-f,
+.fm-s-block:hover .fm-s, .fm-s-block:hover .style_name {
   scale: 120%;
   transition-duration: .3s;
   z-index: 100;
