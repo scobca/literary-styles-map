@@ -18,12 +18,11 @@ export default class YItalyMap extends Vue{
 
 <style scoped lang="less">
 .country_header {
-  margin-bottom: .75rem;
   margin-left: 1rem;
 }
 
 .im-f {
-  height: 12rem;
+  height: 13rem;
   scale: 100%;
   transition-duration: .3s;
 }
