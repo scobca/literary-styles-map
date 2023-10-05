@@ -15,6 +15,7 @@ import YItalyMap from "@/components/YItalyMap.vue";
 import YRussiaMap from "@/components/YRussiaMap.vue";
 
 @Options({
+  name: 'home-view',
   components: {YRussiaMap, YItalyMap, YFranceMap},
 })
 export default class HomeView extends Vue {
