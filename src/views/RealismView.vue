@@ -48,7 +48,7 @@ export default class RealismView extends Vue {
   flex-direction: row;
   justify-content: space-around;
   margin: 1rem;
-  gap: 3rem;
+  gap: 10vw;
 }
 
 .text_block {
