@@ -20,7 +20,7 @@
       </div>
     </div>
     <div class="global_names_block">
-
+      <y-realism-slider/>
     </div>
   </div>
 </template>
@@ -29,9 +29,11 @@
 import {Options, Vue} from "vue-class-component";
 import YTransition from "@/components/UI/YTransition.vue";
 import BubbleTransition from "@/components/UI/BubbleTransition.vue";
+import YRealismSlider from "@/components/UI/YRealismSlider.vue";
 
 @Options({
   name: 'realism-view',
+  components: {YRealismSlider},
 })
 export default class RealismView extends Vue {
 
@@ -46,6 +48,7 @@ export default class RealismView extends Vue {
   flex-direction: row;
   justify-content: space-around;
   margin: 1rem;
+  gap: 3rem;
 }
 
 .text_block {
