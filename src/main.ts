@@ -12,6 +12,9 @@ import '@/assets/styles/scrollbar_styles.less'
 //animate.css library
 import 'animate.css'
 
+//AOS animations library
+import 'aos/dist/aos.css';
+
 //import Vuetify
 import 'vuetify/styles'
 import { createVuetify } from 'vuetify'

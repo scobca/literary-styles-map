@@ -26,10 +26,12 @@
 </template>
 
 <script lang="ts">
+//@ts-ignore
+import AOS from 'aos';
 import {Options, Vue} from "vue-class-component";
-import YTransition from "@/components/UI/YTransition.vue";
-import BubbleTransition from "@/components/UI/BubbleTransition.vue";
 import YRealismSlider from "@/components/UI/YRealismSlider.vue";
+
+AOS.init()
 
 @Options({
   name: 'realism-view',
