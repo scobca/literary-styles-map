@@ -1,13 +1,13 @@
 <template>
   <div class="main_container">
     <div class="text_block">
-      <div class="block">
+      <div class="block animate__animated animate__fadeInUp">
         <h1>Реализм —</h1>
         <p>направление, а также художественный метод в литературе, ставящий целью правдивое воспроизведение
           действительности в её типичных чертах.
         </p>
       </div>
-      <div class="block">
+      <div class="block animate__animated animate__fadeInUp animate__delay-1s">
         <h2>Общие черты реализма в литературе:</h2>
         <ul class="ul_block">
           <li> изображение жизни в образах, соответствующих действительности, исторически конкретных событий, общества,
@@ -19,7 +19,7 @@
         </ul>
       </div>
     </div>
-    <div class="global_names_block">
+    <div class="global_names_block animate__animated animate__fadeInUp animate__delay-2s">
       <y-realism-slider/>
     </div>
   </div>
@@ -44,17 +44,17 @@ export default class RealismView extends Vue {
 @import '@/assets/styles/color';
 
 .main_container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: 1rem;
-  gap: 10vw;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 8vw;
+  margin: 2rem;
 }
 
 .text_block {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  justify-content: space-evenly;
+  min-height: 75vh;
 
   font-size: 1.1rem;
 }
@@ -68,7 +68,7 @@ export default class RealismView extends Vue {
 
   background: @bg-text-color;
 
-  padding: 1.5rem;
+  padding: 1.5rem 2.5rem;
   border-radius: .5rem;
 }
 
