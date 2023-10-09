@@ -2,7 +2,7 @@
   <div class="main_container">
     <h2 class="country_header">Франция</h2>
     <div class="france_map">
-      <div class="block fm-f-block">
+      <div class="block fm-f-block" @click="this.$router.push('/realism')">
         <span class="style_name">Реализм</span>
         <img src="@/assets/img/maps/france_map_fst.png" alt="" class="fm-f img">
       </div>
