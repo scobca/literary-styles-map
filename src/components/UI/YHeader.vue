@@ -1,8 +1,8 @@
 <template>
   <div class="container">
-    <h2 class="header_text">Литературные течения</h2>
+    <h2 class="header_text" @click="this.$router.push('/')">Литературные течения</h2>
     <div class="menu_buttons_block">
-      <router-link to="" class="menu_button">Реализм</router-link>
+      <router-link to="/realism" class="menu_button">Реализм</router-link>
       <router-link to="" class="menu_button">Символизм</router-link>
       <router-link to="" class="menu_button">Акмеизм</router-link>
       <router-link to="" class="menu_button">Футуризм</router-link>
