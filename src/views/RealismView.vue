@@ -72,6 +72,16 @@ export default class RealismView extends Vue {
 
   padding: 1.5rem 2.5rem;
   border-radius: .5rem;
+
+  scale: 100%;
+  transition-duration: .75s;
+}
+
+.block:hover {
+  scale: 110%;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  transition-duration: .75s;
 }
 
 </style>
