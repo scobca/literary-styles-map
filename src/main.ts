@@ -9,6 +9,9 @@ import '@/assets/styles/color.less'
 import '@/assets/styles/main.less'
 import '@/assets/styles/scrollbar_styles.less'
 
+//animate.css library
+import 'animate.css'
+
 //import Vuetify
 import 'vuetify/styles'
 import { createVuetify } from 'vuetify'
