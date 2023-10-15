@@ -1,6 +1,5 @@
 <template>
   <div class="app_container">
-    <y-header/>
     <router-view/>
   </div>
 </template>

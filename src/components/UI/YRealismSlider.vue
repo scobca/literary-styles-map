@@ -1,7 +1,7 @@
 <template>
   <v-card
     elevation="24"
-    max-width="444"
+    max-width="20rem"
     class="mx-auto"
   >
     <v-carousel
@@ -10,7 +10,7 @@
       :show-arrows="false"
       hide-delimiter-background
       hide-delimiters
-      height="85vh"
+      height="40rem"
       cycle="true"
       interval="8000"
     >
@@ -91,13 +91,18 @@ export default class YRealismSlider extends Vue {
   padding-bottom: .5rem;
 }
 
+.slider_block > h3 {
+  font-size: 1.5rem;
+  color: @text-color-dark;
+}
+
 .img {
-  height: 40vh;
+  height: 18rem;
   margin-bottom: .5rem;
 }
 
 .info_block {
-  background: @bg-header-color;
+  background: @bg-text-color-dark;
 
   display: flex;
   flex-direction: column;
@@ -105,8 +110,8 @@ export default class YRealismSlider extends Vue {
   align-content: center;
 
   width: 15vw;
-  min-height: 35vh;
-  margin: 5% 10%;
+  height: 20rem;
+  margin: 1rem auto;
   padding: .5rem;
   border-radius: .5rem;
 }
