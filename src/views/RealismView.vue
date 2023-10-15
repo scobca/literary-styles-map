@@ -3,13 +3,13 @@
     <y-header class="header"/>
     <div class="main_container">
       <div class="text_block">
-        <div class="block animate__animated animate__fadeInUp">
+        <div class="block" data-aos="fade-up" data-aos-duration="750">
           <h1>Реализм —</h1>
           <p>направление, а также художественный метод в литературе, ставящий целью правдивое воспроизведение
             действительности в её типичных чертах.
           </p>
         </div>
-        <div class="block animate__animated animate__fadeInUp animate__delay-1s">
+        <div class="block" data-aos="fade-up" data-aos-duration="750" data-aos-delay="750">
           <h2>Общие черты реализма в литературе:</h2>
           <ul class="ul_block">
             <li> изображение жизни в образах, соответствующих действительности, исторически конкретных событий, общества,
@@ -21,7 +21,7 @@
           </ul>
         </div>
       </div>
-      <div class="global_names_block animate__animated animate__fadeInUp animate__delay-2s">
+      <div class="global_names_block" data-aos="fade-up" data-aos-duration="750" data-aos-delay="1500">
         <y-realism-slider/>
       </div>
     </div>
