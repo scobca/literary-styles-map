@@ -2,7 +2,7 @@
   <div class="main_container">
     <h2 class="country_header">Италия</h2>
     <div class="italy_map">
-      <div class="block im-s-block">
+      <div class="block im-s-block" @click="this.$router.push('/futurism')">
         <span class="style_name">Футуризм</span>
         <img src="@/assets/img/maps/italy_map.png" alt="" class="im-f img">
       </div>
