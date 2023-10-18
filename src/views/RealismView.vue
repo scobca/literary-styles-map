@@ -27,6 +27,11 @@
     </div>
     <div class="main_composition" data-aos="fade-up" data-aos-duration="750">
       <h2>Основные произведения реализма</h2>
+      <y-card>
+        <template v-slot:front-side>
+          <p>lk</p>
+        </template>
+      </y-card>
     </div>
   </v-parallax>
 </template>
@@ -37,12 +42,13 @@ import AOS from 'aos';
 import {Options, Vue} from "vue-class-component";
 import YRealismSlider from "@/components/UI/YRealismSlider.vue";
 import YHeader from "@/components/UI/YHeader.vue";
+import YCard from "@/components/UI/YCard.vue";
 
 AOS.init()
 
 @Options({
   name: 'realism-view',
-  components: {YHeader, YRealismSlider},
+  components: {YCard, YHeader, YRealismSlider},
 })
 export default class RealismView extends Vue {
 

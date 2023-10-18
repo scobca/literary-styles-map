@@ -1,4 +1,5 @@
 <template>
+  <y-header/>
   <div class="home_container">
     <div class="country_container">
       <y-france-map class="fm_container"/>
@@ -13,10 +14,11 @@ import { Options, Vue } from 'vue-class-component';
 import YFranceMap from "@/components/YFranceMap.vue";
 import YItalyMap from "@/components/YItalyMap.vue";
 import YRussiaMap from "@/components/YRussiaMap.vue";
+import YHeader from "@/components/UI/YHeader.vue";
 
 @Options({
   name: 'home-view',
-  components: {YRussiaMap, YItalyMap, YFranceMap},
+  components: {YHeader, YRussiaMap, YItalyMap, YFranceMap},
 })
 export default class HomeView extends Vue {
 

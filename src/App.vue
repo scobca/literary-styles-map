@@ -10,7 +10,7 @@ import YHeader from "@/components/UI/YHeader.vue";
 
 @Options({
   name: 'App',
-  components: {YHeader}
+  components: {}
 })
 export default class App extends Vue {
 }
