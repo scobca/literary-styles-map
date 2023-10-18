@@ -204,7 +204,7 @@ export default class RealismView extends Vue {
 .main_container {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  margin: 1rem 10rem;
+  margin: 1rem 20rem;
   min-height: 86vh;
 }
 
