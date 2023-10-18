@@ -71,5 +71,6 @@ export default class YRussiaMap extends Vue {
   scale: 120%;
   transition-duration: .3s;
   z-index: 100;
+  cursor: pointer;
 }
 </style>

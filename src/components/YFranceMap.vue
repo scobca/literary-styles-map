@@ -7,7 +7,7 @@
         <img src="@/assets/img/maps/france_map_fst.png" alt="" class="fm-f img">
       </div>
       <div class="block block_reverse fm-s-block">
-        <span class="style_name">Символизм</span>
+        <span class="style_name" @click="this.$router.push('/symbolism')">Символизм</span>
         <img src="@/assets/img/maps/france_map_snd.png" alt="" class="fm-s img">
       </div>
     </div>
@@ -72,5 +72,6 @@ export default class YFranceMap extends Vue {
   scale: 120%;
   transition-duration: .3s;
   z-index: 100;
+  cursor: pointer;
 }
 </style>
