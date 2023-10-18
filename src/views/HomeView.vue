@@ -30,8 +30,8 @@ export default class HomeView extends Vue {
   height: 81vh;
   width: 80vw;
 
-  margin: 2rem 0 0 0;
-  background: url("@/assets/img/map_background_2.png") fixed center no-repeat;
+  margin: 3rem 0;
+  background: url("@/assets/img/map_background_2.png") center no-repeat;
   background-size: 62rem 35rem;
 
   display: flex;
