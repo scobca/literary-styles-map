@@ -10,7 +10,12 @@ const routes: Array<RouteRecordRaw> = [
     path: '/realism',
     name: 'realism',
     component: () => import('@/views/RealismView.vue')
-  }
+  },
+  {
+    path: '/symbolism',
+    name: 'symbolism',
+    component: () => import('@/views/SymbolismView.vue')
+  },
 ]
 
 const router = createRouter({
