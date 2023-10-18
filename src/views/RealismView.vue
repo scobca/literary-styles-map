@@ -12,7 +12,8 @@
         <div class="block" data-aos="fade-up" data-aos-duration="750" data-aos-delay="750">
           <h2>Общие черты реализма в литературе:</h2>
           <ul class="ul_block">
-            <li> изображение жизни в образах, соответствующих действительности, исторически конкретных событий, общества,
+            <li> изображение жизни в образах, соответствующих действительности, исторически конкретных событий,
+              общества,
               эпохи;
             </li>
             <li> реальность – средство познания себя и мира вокруг;</li>
@@ -22,16 +23,119 @@
         </div>
       </div>
       <div class="global_names_block" data-aos="fade-up" data-aos-duration="750" data-aos-delay="1500">
-        <y-realism-slider/>
+        <div class="slider_container">
+          <h2 class="header_color_light">Писатели реалисты</h2>
+          <y-realism-slider/>
+        </div>
       </div>
     </div>
-    <div class="main_composition" data-aos="fade-up" data-aos-duration="750">
-      <h2>Основные произведения реализма</h2>
-      <y-card>
-        <template v-slot:front-side>
-          <p>lk</p>
-        </template>
-      </y-card>
+    <div class="main_composition">
+      <h2 data-aos="fade-up" data-aos-duration="750">Произведения реализма</h2>
+      <div class="card_container">
+        <y-card class="card" data-aos="fade-up" data-aos-duration="750" data-aos-delay="500">
+          <template v-slot:front-side class="card card_template">
+            <div class="name">
+              <h2>Оноре де Бальзак —</h2>
+            </div>
+            <div class="composition">
+              <h3>"Человеческая комедия"</h3>
+            </div>
+          </template>
+
+          <template v-slot:back-side class="card card_template">
+            <p>
+              Цикл сочинений французского писателя Оноре де Бальзака, составленный им самим из его 137 произведений
+              и включающий романы с реальными, фантастическими и философскими сюжетами, изображающими французское
+              общество в период Реставрации Бурбонов и Июльской монархии
+            </p>
+          </template>
+        </y-card>
+        <y-card class="card" data-aos="fade-up" data-aos-duration="750" data-aos-delay="750">
+          <template v-slot:front-side>
+            <div class="name">
+              <h2>А.С. Пушкин —</h2>
+            </div>
+            <div class="composition">
+              <h3>"Капитанская дочка"</h3>
+            </div>
+          </template>
+
+          <template v-slot:back-side class="card card_template">
+            <p>
+              Исторический роман Александра Пушкина, действие которого происходит во время восстания Емельяна Пугачёва.
+            </p>
+          </template>
+        </y-card>
+        <y-card class="card" data-aos="fade-up" data-aos-duration="750" data-aos-delay="1000">
+          <template v-slot:front-side>
+            <div class="name">
+              <h2>Ф.М. Достоевский —</h2>
+            </div>
+            <div class="composition">
+              <h3>"Белые ночи"</h3>
+            </div>
+          </template>
+
+          <template v-slot:back-side class="card card_template">
+            <p>
+              Рассказ о романтической любви молодого мечтателя, одинокого и робкого человека, который однажды в
+              белую ночь встретил и полюбил прекрасную девушку, почувствовав в ней родную душу
+            </p>
+          </template>
+        </y-card>
+        <y-card class="card" data-aos="fade-up" data-aos-duration="750" data-aos-delay="500">
+          <template v-slot:front-side>
+            <div class="name">
+              <h2>Марк Твен —</h2>
+            </div>
+            <div class="composition">
+              <h3>"Приключения Тома Сойера"</h3>
+            </div>
+          </template>
+
+          <template v-slot:back-side class="card card_template">
+            <p>
+              Повесть Марка Твена о приключениях мальчика, живущего в небольшом американском городке Сент-Питерсберг в
+              штате Миссури.
+            </p>
+          </template>
+        </y-card>
+        <y-card class="card" data-aos="fade-up" data-aos-duration="750" data-aos-delay="750">
+          <template v-slot:front-side>
+            <div class="name">
+              <h2>Л.Н. Толстой —</h2>
+            </div>
+            <div class="composition">
+              <h3>"Анна Каренина"</h3>
+            </div>
+          </template>
+
+          <template v-slot:back-side class="card card_template">
+            <p>
+              Роман Льва Толстого о трагической любви замужней дамы Анны Карениной и блестящего офицера Алексея
+              Вронского на фоне счастливой семейной жизни дворян Константина Лёвина и Кити Щербацкой.
+            </p>
+          </template>
+        </y-card>
+        <y-card class="card" data-aos="fade-up" data-aos-duration="750" data-aos-delay="1000">
+          <template v-slot:front-side>
+            <div class="name">
+              <h2>М.Ю. Лермонтов —</h2>
+            </div>
+            <div class="composition">
+              <h3>"Герой нашего времени"</h3>
+            </div>
+          </template>
+
+          <template v-slot:back-side class="card card_template">
+            <p>
+              Первый в русской прозе социально-психологический роман, написанный Михаилом Юрьевичем Лермонтовым в
+              1837—1839 годах, в котором описываются события из жизни на Кавказе молодого офицера с пылким нравом
+              Григория Александровича Печорина.
+            </p>
+          </template>
+        </y-card>
+      </div>
     </div>
   </v-parallax>
 </template>
@@ -57,6 +161,16 @@ export default class RealismView extends Vue {
 
 <style scoped lang="less">
 @import '@/assets/styles/color';
+
+.card_container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+  gap: 1rem;
+  margin-top: 2rem;
+  max-width: 80%;
+}
 
 .main_composition {
   display: flex;
