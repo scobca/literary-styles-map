@@ -155,7 +155,7 @@ AOS.init()
 
 @Options({
   name: 'futurism-view',
-  components: {YFuturismSlider, YSymbolismSlider, YCard, YHeader, YRealismSlider},
+  components: {YFuturismSlider, YCard, YHeader},
 })
 export default class FuturismView extends Vue {
 

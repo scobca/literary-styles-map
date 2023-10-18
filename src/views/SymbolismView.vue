@@ -153,7 +153,7 @@ AOS.init()
 
 @Options({
   name: 'symbolism-view',
-  components: {YSymbolismSlider, YCard, YHeader, YRealismSlider},
+  components: {YSymbolismSlider, YCard, YHeader},
 })
 export default class SymbolismView extends Vue {
 
