@@ -28,7 +28,7 @@ export default class YCard extends Vue {
   height: 100%;
   left: 0;
   top: 0;
-  background-color: #BBDEFB;
+  background-color: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,13 +48,15 @@ export default class YCard extends Vue {
   left: 0;
   top: 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   transition: 1s;
   backface-visibility: hidden;
   border-radius: 10px;
+  padding: 1rem;
 
-  background-color: @bg-text-color;
+  background-color: @bg-text-color-dark;
   color: @text-color;
 }
 
