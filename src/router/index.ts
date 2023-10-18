@@ -16,6 +16,11 @@ const routes: Array<RouteRecordRaw> = [
     name: 'symbolism',
     component: () => import('@/views/SymbolismView.vue')
   },
+  {
+    path: '/futurism',
+    name: 'futurism',
+    component: () => import('@/views/FuturismView.vue')
+  },
 ]
 
 const router = createRouter({
