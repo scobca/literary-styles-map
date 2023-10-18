@@ -6,8 +6,8 @@
         <span class="style_name">Акмеизм</span>
         <img src="@/assets/img/maps/russia_map_fst.png" alt="" class="rm-f img">
       </div>
-      <div class="block block_reverse rm-s-block">
-        <span class="style_name">Реализм</span>
+      <div class="block block_reverse rm-s-block" @click="openErr">
+        <span class="style_name">Имажинизм</span>
         <img src="@/assets/img/maps/russia_map_snd.png" alt="" class="rm-s img">
       </div>
     </div>
@@ -21,7 +21,9 @@ import {Options, Vue} from "vue-class-component";
   name: 'y-russia-map',
 })
 export default class YRussiaMap extends Vue {
-
+  openErr() {
+    this.$store.commit('openErrorPopup', 'Что-то пошло не так. Не удается получить информацию с сервера')
+  }
 }
 </script>
 

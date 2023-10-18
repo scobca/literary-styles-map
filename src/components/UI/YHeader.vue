@@ -6,7 +6,7 @@
       <router-link to="/symbolism" class="menu_button">Символизм</router-link>
       <router-link to="/futurism" class="menu_button">Футуризм</router-link>
       <router-link to="/acmeism" class="menu_button">Акмеизм</router-link>
-      <router-link to="" class="menu_button">Имажинизм</router-link>
+      <router-link @click="openErr" to="" class="menu_button">Имажинизм</router-link>
     </div>
   </div>
 </template>
@@ -18,7 +18,9 @@ import {Options, Vue} from "vue-class-component";
   name: 'YHeader',
 })
 export default class YHeader extends Vue {
-
+  openErr() {
+    this.$store.commit('openErrorPopup', 'Что-то пошло не так. Не удается получить информацию с сервера')
+  }
 }
 </script>
 
