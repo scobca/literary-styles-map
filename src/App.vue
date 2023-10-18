@@ -7,7 +7,6 @@
 
 <script lang="ts">
 import {Options, Vue} from "vue-class-component";
-import YHeader from "@/components/UI/YHeader.vue";
 import YFooter from "@/components/UI/YFooter.vue";
 
 @Options({
