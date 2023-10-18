@@ -1,6 +1,6 @@
 <template>
   <v-card
-    elevation="24"
+    elevation="10"
     max-width="20rem"
     class="mx-auto"
   >
@@ -10,7 +10,7 @@
       :show-arrows="false"
       hide-delimiter-background
       hide-delimiters
-      height="40rem"
+      height="37rem"
       cycle="true"
       interval="8000"
     >
