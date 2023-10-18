@@ -2,7 +2,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
-import store from './store'
 
 //import stylesheets
 import '@/assets/styles/color.less'
@@ -20,6 +19,7 @@ import 'aos/dist/aos.css';
 import 'vuetify/styles'
 import { createVuetify } from 'vuetify'
 import * as components from 'vuetify/components'
+import {store} from "@/store";
 
 const vuetify = createVuetify({
   components,
