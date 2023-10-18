@@ -2,15 +2,17 @@
   <div class="app_container">
     <router-view/>
   </div>
+  <y-footer/>
 </template>
 
 <script lang="ts">
 import {Options, Vue} from "vue-class-component";
 import YHeader from "@/components/UI/YHeader.vue";
+import YFooter from "@/components/UI/YFooter.vue";
 
 @Options({
   name: 'App',
-  components: {}
+  components: {YFooter}
 })
 export default class App extends Vue {
 }
