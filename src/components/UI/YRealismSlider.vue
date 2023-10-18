@@ -12,7 +12,7 @@
       hide-delimiters
       height="37rem"
       cycle="true"
-      interval="8000"
+      interval="6500"
     >
       <v-carousel-item>
         <div class="slider_block">
