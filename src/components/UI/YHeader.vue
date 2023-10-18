@@ -5,7 +5,7 @@
       <router-link to="/realism" class="menu_button">Реализм</router-link>
       <router-link to="/symbolism" class="menu_button">Символизм</router-link>
       <router-link to="/futurism" class="menu_button">Футуризм</router-link>
-      <router-link to="" class="menu_button">Акмеизм</router-link>
+      <router-link to="/acmeism" class="menu_button">Акмеизм</router-link>
       <router-link to="" class="menu_button">Имажинизм</router-link>
     </div>
   </div>

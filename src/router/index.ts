@@ -21,6 +21,11 @@ const routes: Array<RouteRecordRaw> = [
     name: 'futurism',
     component: () => import('@/views/FuturismView.vue')
   },
+  {
+    path: '/acmeism',
+    name: 'acmeism',
+    component: () => import('@/views/AcmeismView.vue')
+  },
 ]
 
 const router = createRouter({
