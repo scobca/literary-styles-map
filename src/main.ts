@@ -8,6 +8,7 @@ import store from './store'
 import '@/assets/styles/color.less'
 import '@/assets/styles/main.less'
 import '@/assets/styles/scrollbar_styles.less'
+import '@/assets/styles/global_classes.less'
 
 //animate.css library
 import 'animate.css'
