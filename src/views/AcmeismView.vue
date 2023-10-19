@@ -126,11 +126,8 @@
 //@ts-ignore
 import AOS from 'aos';
 import {Options, Vue} from "vue-class-component";
-import YRealismSlider from "@/components/UI/YRealismSlider.vue";
 import YHeader from "@/components/UI/YHeader.vue";
 import YCard from "@/components/UI/YCard.vue";
-import YSymbolismSlider from "@/components/UI/YSymbolismSlider.vue";
-import YFuturismSlider from "@/components/UI/YFuturismSlider.vue";
 import YAcmeismSlider from "@/components/UI/YAcmeismSlider.vue";
 
 AOS.init()

@@ -35,7 +35,7 @@ export default class YPopupError extends Vue {
   bottom: 0;
   left: 0;
   background: rgba(5, 5, 5, 0.67);
-  backdrop-filter: blur(14.5px);
+  backdrop-filter: blur(14px);
 }
 .yPopup__error {
   z-index: 9999999;
@@ -45,7 +45,7 @@ export default class YPopupError extends Vue {
   align-items: center;
   justify-content: center;
   background: linear-gradient(140.62deg, rgba(255, 255, 255, 0.25) 2.81%, rgba(255, 255, 255, 0.1) 100.82%);
-  box-shadow: 0px 4px 52px rgba(143, 0, 255, 0.11);
+  box-shadow: 0 4px 52px rgba(143, 0, 255, 0.11);
   border-radius: 16px;
   padding: 1rem 1.5rem 4rem;
   width: 30rem;
@@ -61,19 +61,11 @@ export default class YPopupError extends Vue {
   margin-top: 2rem;
   width: 10rem;
 }
-.popup__fix {
-  width: 20rem;
-}
 .popup__exit {
   align-self: end;
 }
 .popup__exit:hover {
   cursor: pointer;
-}
-.error__code__title {
-  margin-top: 0.5rem;
-  opacity: 0.7;
-  font-size: 0.9rem;
 }
 .error__code {
   font-size: 0.9rem;
